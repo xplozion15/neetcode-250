@@ -1,7 +1,6 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
 
-        i = 0
         sorted_s = "".join(sorted(s))
         sorted_t = "".join(sorted(t))
 
@@ -12,3 +11,5 @@ class Solution:
             return True
         else:
             return False
+            
+    
